@@ -1,0 +1,7 @@
+.idea
+.env.production
+.env.development
+.cache
+public
+node_modules
+package-lock.json

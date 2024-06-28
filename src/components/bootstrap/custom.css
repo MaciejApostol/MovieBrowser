@@ -1,0 +1,43 @@
+@import 'bootstrap.css';
+
+.nav-pills {
+    --bs-nav-pills-link-active-color: #3459e6;
+    --bs-nav-pills-link-active-bg: #fff;
+}
+
+ul {
+    margin-bottom: 0;
+}
+
+.row {
+    --page-link-width: 60px;
+}
+
+.pagination-col {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: calc(9 * var(--page-link-width));
+}
+
+.page-item {
+    width: var(--page-link-width);
+}
+
+.page-link {
+    width: 100%;
+    text-align: center;
+}
+
+.vh-25 {
+    height: 25vh !important;
+}
+
+.badge.bg-secondary, .badge.bg-light {
+    color: var(--bs-nav-pills-link-active-color);
+}
+
+.badge-position {
+    top: -25%;
+    right: -10%;
+    z-index: 1
+}
